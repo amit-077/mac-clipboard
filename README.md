@@ -1,4 +1,6 @@
-# 📋 Clipboard Manager for macOS
+<img width="256" height="256" alt="final-1" src="https://github.com/user-attachments/assets/790d3dd5-7afb-49e1-816d-3c6b4b458efe" />
+
+# Clippy - Clipboard Manager for macOS
 
 A fast, lightweight, and keyboard-first clipboard manager for macOS — designed to bring a **Windows-style clipboard history (Win + V)** experience to Mac.
 
