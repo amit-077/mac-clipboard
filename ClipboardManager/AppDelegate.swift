@@ -11,7 +11,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         // Menu bar icon
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-        statusItem.button?.title = "📋"
+
+        if let button = statusItem.button {
+            let image = NSImage(
+                systemSymbolName: "clipboard",
+                accessibilityDescription: "Clipboard"
+            )
+            image?.isTemplate = true
+            button.image = image
+        }
 
         let menu = NSMenu()
         let openItem = NSMenuItem(
