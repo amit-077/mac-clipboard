@@ -139,13 +139,7 @@ Inspired by tools like:
 
 ## 📸 Screenshot (Optional)
 
-> Add a screenshot here to improve repo quality
-
-Example:
-
-```
-![App Screenshot](screenshot.png)
-```
+https://github.com/user-attachments/assets/d955b667-17d1-4bb5-9682-122ec7e7a12d
 
 ---
 
